@@ -1,0 +1,73 @@
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  width: 500px;
+  min-height: 150px;
+
+
+  background-color: #ffffff;
+  //color: red;
+
+  .text{
+    padding: 30px;
+    font-family: 'Nerko One', cursive;
+    word-wrap: break-word;
+    font-size: 36px;
+  }
+
+  .autor{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 50px;
+    padding-right: 40px;
+    font-family: 'Nerko One', cursive;
+    font-size: 20px;
+  }
+  .buttons{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+
+    .sotialNetwork{
+      display: flex;
+      justify-content: space-between;
+      a{
+        min-width: 40px;
+        min-height: 20px;
+        font-size: 18px;
+        //background-color: red;
+        margin-right: 20px;
+        border-radius: 5px;
+        color: white;
+
+      }
+      a:hover{
+        text-shadow: 0 0 1px  #FF4500;
+        opacity: .6;
+      }
+    }
+    button{
+      min-width: 40px;
+      min-height: 20px;
+      font-size: 18px;
+      //background-color: red;
+      border: none;
+      margin-right: 20px;
+      border-radius: 5px;
+      font-family: 'Nerko One';
+      color: white;
+      outline: none;
+      cursor: pointer;
+    }
+    button:hover{
+      text-shadow: 0 0 1px  #FF4500;
+      opacity: .6;
+    }
+
+
+
+  }
+
+}
