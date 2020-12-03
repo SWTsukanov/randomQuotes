@@ -6,7 +6,7 @@ import Quote from "./components/quote/Quote.component";
 
 
 function App() {
-    const [color,setColor] = useState('rgba(0,0,0,1)')
+    const [color,setColor] = useState(`rgba(${Math.random()*255+1},${Math.random()*255+1},${Math.random()*255+1},0.6)`)
     const [autor,setAutor] = useState('')
     const [data,setData] = useState([])
     const [quote,setQuote] = useState('')
